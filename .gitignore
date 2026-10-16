@@ -18,3 +18,6 @@ data/*
 .idea/
 .DS_Store
 Thumbs.db
+
+# Large generated videos (re-create with main.py); the demo GIF and charts are tracked
+results/*.mp4

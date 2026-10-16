@@ -1,0 +1,65 @@
+{
+  "summary": {
+    "frames": 795,
+    "pipeline_ms": {
+      "mean": 11.085810188679245,
+      "median": 10.6833,
+      "p95": 13.5208,
+      "min": 8.6168,
+      "max": 37.7647,
+      "stdev": 2.113207058420406
+    },
+    "pipeline_fps_mean": 90.20540519638278,
+    "end_to_end_fps": 51.45753766652871,
+    "stage_ms_mean": {
+      "blur": 0.43697924528301885,
+      "threshold": 2.7100709433962265,
+      "background": 4.0356924528301885,
+      "morphology": 1.5458579874213836,
+      "contours": 0.3784490566037736,
+      "tracking": 0.07325157232704403,
+      "draw": 1.9037625157232705
+    },
+    "stage_share": {
+      "blur": 0.03942410060147887,
+      "threshold": 0.24450156537846332,
+      "background": 0.36409863162713735,
+      "morphology": 0.13946671717149536,
+      "contours": 0.03414352933494286,
+      "tracking": 0.006608728876282202,
+      "draw": 0.17175672701020006
+    },
+    "detections_per_frame": {
+      "mean": 5.09811320754717,
+      "max": 10
+    },
+    "mean_count_per_class": {
+      "person-like": 4.042767295597485,
+      "large blob": 0.7270440251572327,
+      "small object": 0.3283018867924528
+    },
+    "unique_objects": 68,
+    "frame_size": [
+      768,
+      576
+    ],
+    "scale": 1.0
+  },
+  "config": {
+    "blur_kernel": 5,
+    "adaptive_block": 21,
+    "adaptive_c": 6,
+    "bg_history": 200,
+    "bg_var_threshold": 25.0,
+    "morph_kernel": 5,
+    "min_area": 150,
+    "max_person_box": 6000,
+    "person_min_aspect": 1.1,
+    "max_aspect": 2.0,
+    "min_side": 8,
+    "track_max_distance": 60.0,
+    "track_max_missing": 8,
+    "track_min_hits": 5,
+    "warmup_frames": 20
+  }
+}

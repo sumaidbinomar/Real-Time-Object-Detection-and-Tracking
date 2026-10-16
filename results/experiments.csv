@@ -1,0 +1,17 @@
+parameter,value,mean_ms,fps,mean_detections,unique_objects
+blur_kernel,1,10.773,92.8,4.86,45
+blur_kernel,3,11.478,87.1,4.95,34
+blur_kernel,5,11.199,89.3,5.01,30
+blur_kernel,9,11.406,87.7,4.893,29
+blur_kernel,15,11.512,86.9,4.812,29
+adaptive_block,11,10.538,94.9,4.965,33
+adaptive_block,21,11.09,90.2,5.01,30
+adaptive_block,41,12.684,78.8,5.03,39
+adaptive_block,81,16.879,59.2,5.058,40
+track_min_hits,1,11.227,89.1,5.423,54
+track_min_hits,3,11.362,88.0,5.18,36
+track_min_hits,5,11.265,88.8,5.01,30
+track_min_hits,8,11.269,88.7,4.798,26
+frame_scale,0.5,3.257,307.0,3.737,22
+frame_scale,0.75,6.281,159.2,4.503,22
+frame_scale,1.0,11.13,89.8,5.01,30

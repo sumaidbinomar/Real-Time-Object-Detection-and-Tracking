@@ -1,0 +1,10 @@
+frame,people_counted_by_eye,detections_reported,person_like,large_blob,small_object
+80,7,5,3,1,1
+160,7,7,7,0,0
+240,7,7,6,0,1
+320,6,5,4,0,1
+400,3,3,3,0,0
+480,4,3,3,0,0
+560,6,5,4,1,0
+640,6,6,5,1,0
+720,8,7,5,1,1
